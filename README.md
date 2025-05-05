@@ -7,8 +7,8 @@ A simple sidebar and helpbox chat interface built using only HTML and CSS.
 ![screenshot](screenshot.png)
 
 ## Features
-- Sidebar navigation layout
-- Helpbox-style chat UI
+- Dummy Sidebar navigation layout
+- Dummy Helpbox-style chat UI
 - Pure HTML & CSS
 
 Feel free to use or modify!
