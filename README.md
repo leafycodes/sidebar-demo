@@ -4,7 +4,11 @@ A simple sidebar and helpbox chat interface built using only HTML and CSS.
 
 ## Preview
 
-![screenshot](screenshot.png)
+Landing page:
+![landing page](home.png)
+
+Sidebar and Chatbox UI Active:
+![sidebar and chatbox active](activehome.png)
 
 ## Features
 - dummy dynamic sidebar navigation layout
