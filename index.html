@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Leaf is Noob</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar" tabindex="0">
+            <div class="items">
+                <i class="fa-solid fa-house"></i>
+                <a href="">Homebase</a>
+            </div>
+            <div class="items">
+                <i class="fa-solid fa-code"></i>
+                <a href="">Debugging</a>
+            </div>
+            <div class="items">
+                <i class="fa-solid fa-bug"></i>
+                <a href="">Bugs</a>
+            </div>
+            <div class="items">
+                <i class="fa-solid fa-circle-user"></i>
+                <a href="">About Me</a>
+            </div>
+            <div class="items">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <a href="">Oops</a>
+            </div>
+            <div class="items">
+                <i class="fa-solid fa-comments"></i>
+                <a href="">Feedback</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="welcome">
+        <h1>Welcome, I am <span>Leaf</span>!</h1>
+        <p>This is a minimal, responsive interface demo.</p>
+        <p>Hover over the sidebar to explore the sections.</p>
+        <p>Need help? Just click the pup at the bottom right!</p>
+    </div>
+
+    <div id="leaf">Leaf</div>
+
+    <input type="checkbox" id="chat-toggle" hidden>
+    <label for="chat-toggle" id="chatbox-label">
+        <img src="puppy.jpg" alt="chat" id="chatbox">
+    </label>
+
+    <div id="chat-window">
+        <div id="chat-header">
+            <span>Chat Support</span>
+            <label for="chat-toggle"><i class="fa-solid fa-xmark close-chat"></i></label>
+        </div>
+        <div id="chat-messages">
+            <p>Welcome! How can I help you?</p>
+        </div>
+        <div id="chat-input">
+            <input type="text" placeholder="Type your message...">
+            <button>Send</button>
+        </div>
+    </div>
+</body>
+</html>
