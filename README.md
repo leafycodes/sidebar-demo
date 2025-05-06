@@ -1,6 +1,7 @@
 # Sidebar Chat UI
 
 A simple sidebar and helpbox chat interface built using only HTML and CSS.
+Click to view: https://leafycodes.github.io/sidebar-demo/
 
 ## Preview
 
