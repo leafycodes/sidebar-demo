@@ -107,6 +107,7 @@ body {
 
 #chat-toggle:checked ~ #chat-window {
     display: flex;
+    z-index:200;
 }
 
 #chat-header {
